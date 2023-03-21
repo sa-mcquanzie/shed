@@ -1,0 +1,24 @@
+{
+  "name": "shithead-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc index.ts",
+    "start": "npm run build; node index.js",
+    "start-dev": "npm run build; nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "typescript": "^5.0.2",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@types/ws": "^8.5.4"
+  }
+}
